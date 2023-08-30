@@ -1,18 +1,18 @@
-Algoritmo "CotaÁ„o"
+Algoritmo "Cota√ß√£o"
 
 Var
 conversao, cotacaoDolar, dolar: real
 
 
 Inicio
-   escreval("--- C¡LCULO DE COTA«√O ---")
+   escreval("--- C√ÅLCULO DE COTA√á√ÉO ---")
    escreval()
-   escreva("Digite a cotaÁ„o atual do dÛlar: ")
+   escreva("Digite a cota√ß√£o atual do d√≥lar: ")
    leia(cotacaoDolar)
-   escreva("Digite quantos dÛlares vocÍ possui: ")
+   escreva("Digite quantos d√≥lares voc√™ possui: ")
    leia(dolar)
    escreval
-   conversao <- cotacaoDolar * dolar
-   escreval("A convers„o resulta em",conversao," dÛlares")
+   conversao <- dolar / cotacaoDolar
+   escreval("A convers√£o resulta em",conversao," d√≥lares")
 
 Fimalgoritmo
