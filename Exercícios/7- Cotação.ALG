@@ -13,6 +13,6 @@ Inicio
    leia(dolar)
    escreval
    conversao <- dolar / cotacaoDolar
-   escreval("A conversão resulta em",conversao," dólares")
+   escreval("A conversão resulta em",conversao:2:2," dólares")
 
 Fimalgoritmo
