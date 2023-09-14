@@ -14,9 +14,15 @@ Inicio
    escreval("                     === ADIVINHAMENTO ===")
    escreval
    escreval
+   escreval("Tentativas válidas entre 1 e 100")
    escreva("Adivinhe o número: ")
    leia(palpite)
 
+   enquanto (palpite < 1 ) ou (palpite > 100) faça
+      escreval("Número Inválido, burro!")
+      escreva("Palpite: ")
+      leia(palpite)
+   fimenquanto
    enquanto palpite <> 42 faça
       se tentativa > 8 entao
          escreval("Você excedeu o número máximo de tentativas")
@@ -40,6 +46,7 @@ Inicio
       fimse
 
    fimenquanto
+
    palpiteLogico <- VERDADEIRO
    se palpite = 42 entao
       se palpiteLogico entao
