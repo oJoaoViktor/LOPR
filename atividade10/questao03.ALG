@@ -6,11 +6,17 @@ var
 inicio
    escreval("                          === IDADES ===")
    para x de 1 até 10 faça
-      idade[x] <- randi(99) + 1
+      escreva("Digite a",x,"ª idade: ")
+      leia(idade[x])
    fimpara
-
-   escreval("Primeira idade: ",idade[1])
-   escreval("Última idade: ",idade[10])
+   escreval
+   escreval
+   escreval("=== RESUMO ===")
+   escreval
+   escreval("Primeira idade:.",idade[1])
+   escreval("Última idade:...",idade[10])
+   escreval
+   escreval("=== RESUMO ===")
 
 
 Fimalgoritmo

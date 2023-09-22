@@ -8,10 +8,12 @@ Var
 
 Inicio
    escreval("                     === VERIFICAÇÃO ===")
+   escreval
    para x de 1 até 10 faça
-      numeros[x] <- randi(99) + 1
+      escreva("Digite o",x,"º inteiro: ")
+      leia(numeros[x])
    fimpara
-
+   escreval
    escreva("Insira um número: ")
    leia(inputUser)
 
@@ -23,13 +25,17 @@ Inicio
          found <- FALSO
       fimse
    fimpara
-   
+   escreval
+   escreval("=== RESUMO ===")
+   escreval
    se found entao
       escreval("O valor",numeros[x]," foi encontrado na posição",x)
       interrompa
    senao
       escreval("O valor",inputUser," não foi encontrado")
    fimse
+   escreval
+   escreval("=== RESUMO ===")
 
 
 
