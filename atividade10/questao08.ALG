@@ -16,16 +16,11 @@ Inicio
    fimpara
 
    max <- 9
-   para x de 0 até max faça
-      aux[x] <- valor[max-x]
+   
+   para x de 0 até 5 faça
+      temp <- valor[x]
+      valor[x] <- valor[max-x]
+      valor[max-x] <- temp
    fimpara
    
-   para x de 0 até max faça
-      valor[x] <- aux[x]
-   fimpara
-
-
-
-
-
 Fimalgoritmo
