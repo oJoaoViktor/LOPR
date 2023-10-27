@@ -2,7 +2,7 @@ Algoritmo "Questão 08"
 
 Var
    x: inteiro
-   valor,aux: vetor [0..9] de inteiro
+   valor: vetor [0..9] de inteiro
    troca: logico
    temp: inteiro
    max: inteiro
